@@ -29,3 +29,20 @@ Route::get('/', function () {
 Route::group(['middleware' => ['web']], function () {
     //
 });
+
+/*
+|--------------------------------------------------------------------------
+| Useless Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('quote', 'QuoteController@parse');
+
+/*
+Route::group(['domain' => 'uselessapi.com'], function()
+{
+
+    Route::get('quote', 'QuoteController@parse');
+
+});
+*/
