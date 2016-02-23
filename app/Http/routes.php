@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('convert-to-number/{value}', ['uses' => 'ConvertToNumberController@index']);
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
