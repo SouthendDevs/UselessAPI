@@ -36,13 +36,13 @@ Route::group(['middleware' => ['web']], function () {
 |--------------------------------------------------------------------------
 */
 
-Route::get('quote', 'QuoteController@parse');
+Route::get('quote', 'QuoteController@index');
 
 /*
 Route::group(['domain' => 'uselessapi.com'], function()
 {
 
-    Route::get('quote', 'QuoteController@parse');
+    Route::get('quote', 'QuoteController@index');
 
 });
 */

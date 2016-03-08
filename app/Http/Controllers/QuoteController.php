@@ -18,7 +18,7 @@ class QuoteController extends Controller
     /**
      * @return Response
      */
-    public function parse(Request $request)
+    public function index(Request $request)
     {
 
         return Response::json([
