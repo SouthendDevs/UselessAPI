@@ -40,7 +40,7 @@ class QuoteController extends Controller
             ini_set("auto_detect_line_endings", '1');
         }
 
-        $famousPeople = Reader::createFromPath(app_path() . '/Http/assets/famous-people.txt');
+        $famousPeople = Reader::createFromPath(resources_path('quotes/famous-people.txt'));
 
         $res = $famousPeople->fetchAssoc(['code', 'name']);
         $resToArray = iterator_to_array($res, false);
