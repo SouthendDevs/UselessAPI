@@ -12,10 +12,11 @@ class CounterController extends Controller
 {
     public function index()
     {
-        //return "Hello!";
         try {
-        return Response("Value: " . $this->count() . "<br>\n");
-        } catch (\Exception $e) { var_dump($e->getMessage()); }
+            return response()->json(["value" => $this->count()]);
+        } catch (\Exception $e) { 
+            return response()->json(["error" => $e->getMessage()]);
+        }
     }
     
     private function count()
