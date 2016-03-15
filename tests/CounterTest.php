@@ -1,13 +1,9 @@
 <?php
 
-use Illuminate\Foundation\Testing\WithoutMiddleware;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
-
 use App\Http\Controllers\CounterController;
 
 class CounterTest extends TestCase
-{   
+{
     public function testCounter()
     {
         CounterController::reset();
