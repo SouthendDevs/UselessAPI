@@ -38,6 +38,7 @@ Route::group(['middleware' => ['web']], function () {
 
 Route::get('quote', 'QuoteController@index');
 Route::get('counter', 'CounterController@index');
+Route::get('truncate', 'TruncateController@index');
 
 /*
 Route::group(['domain' => 'uselessapi.com'], function()
