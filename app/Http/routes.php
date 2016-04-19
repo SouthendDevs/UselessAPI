@@ -40,6 +40,7 @@ Route::get('quote', 'QuoteController@index');
 Route::get('counter', 'CounterController@index');
 Route::get('truncate', 'TruncateController@index');
 Route::get('decimaltime', 'DecimalTimeController@index');
+Route::get('emptystring', 'EmptyStringController@index');
 
 /*
 Route::group(['domain' => 'uselessapi.com'], function()
