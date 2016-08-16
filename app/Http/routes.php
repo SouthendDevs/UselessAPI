@@ -42,6 +42,7 @@ Route::get('truncate', 'TruncateController@index');
 Route::get('decimaltime', 'DecimalTimeController@index');
 Route::get('emptystring', 'EmptyStringController@index');
 Route::get('pizza', 'PizzaController@index');
+Route::get('dogs', 'DogsController@index');
 
 /*
 Route::group(['domain' => 'uselessapi.com'], function()
