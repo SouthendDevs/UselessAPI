@@ -15,7 +15,7 @@ class PizzaController extends Controller
     
     public function __construct() {
         $this->hashes = collect([
-            'fa791d767f5651ef1e4f9e9fdda9acb3' => 'andy',
+            'a7b331aee42f943156d53e06aa8bfc19' => 'andy',
             '30224a30f34b96204504b02ac51f3968' => 'mike',
             '1069a106ed4e28fe3c620ba18d0a7986' => 'simon',
             '582e5e437447cbf5d0950aa17e5e2b6b' => 'stocker',
