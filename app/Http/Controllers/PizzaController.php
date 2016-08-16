@@ -22,7 +22,8 @@ class PizzaController extends Controller
             'ab425bd5239e24eb33d75372bced154a' => 'ria',
             'ab7fa776f003b83b5e6e1f8b2a5a26cb' => 'john',
             '5999fb439f0c94cf4c6b7f2080d9d6a3' => 'laura',
-            '75a822620eab3619ce5f5f1aca593d84' => 'becky'
+            '75a822620eab3619ce5f5f1aca593d84' => 'becky',
+            '55782e33af92b8c81587321a09536cb0' => 'niall'
         ]);
     }
     
