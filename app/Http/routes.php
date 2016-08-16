@@ -42,6 +42,9 @@ Route::get('truncate', 'TruncateController@index');
 Route::get('decimaltime', 'DecimalTimeController@index');
 Route::get('emptystring', 'EmptyStringController@index');
 
+Route::get('rset', 'RedisController@rset');
+Route::get('rget', 'RedisController@rget');
+
 /*
 Route::group(['domain' => 'uselessapi.com'], function()
 {
