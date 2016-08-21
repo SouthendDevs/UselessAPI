@@ -24,8 +24,8 @@ class EmptyStringController extends Controller
         ]);
     }
 
-    private function emptyString()
+    private function emptyString($string_to_empty)
     {
-        return substr('test', 0, 0);
+        return substr($string_to_empty, 0, 0);
     }
 }
